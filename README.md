@@ -17,9 +17,10 @@ pip install transformers datasets tokenizers seqeval
 5-Make predictions using the fine-tuned model.
 
 ## Usage Example
-
+```python
 from transformers import pipeline
 nlp = pipeline("ner", model=model_fine_tuned, tokenizer=tokenizer)
 example_text = "Insert your sample text here"
 ner_results = nlp(example_text)
 print(ner_results)
+```
