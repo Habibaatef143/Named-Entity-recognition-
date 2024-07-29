@@ -10,11 +10,11 @@ To install the required packages, run the following command:
 pip install transformers datasets tokenizers seqeval
 ```
 ## Usage
-1-Load the data using the load_dataset function from the Hugging Face datasets library.
-2-Prepare the data by tokenizing and aligning the labels.
-3-Train and evaluate the model using the provided datasets.
-4-Save the trained model and tokenizer for future use.
-5-Make predictions using the fine-tuned model.
+1.Load the data using the load_dataset function from the Hugging Face datasets library.
+2.Prepare the data by tokenizing and aligning the labels.
+3.Train and evaluate the model using the provided datasets.
+4.Save the trained model and tokenizer for future use.
+5.Make predictions using the fine-tuned model.
 
 ## Usage Example
 ```python
